@@ -4,14 +4,16 @@ body { background-color: #e4e3e9; }
 
 #img-div {
     padding: 50px 10px;
-    max-width: 300px;
     margin: auto;
 }
 
-#img {
+#image {
+    display: block;
+    margin: auto;
     border: 1px black solid;
     border-radius: 50%;
     margin-bottom: 20px;
+    max-width: 300px;
 }
 
 #tribute-info {
@@ -19,6 +21,10 @@ body { background-color: #e4e3e9; }
     justify-content: space-evenly;
     width: 80%;
     margin: 40px auto;
+}
+
+#tribute-info p {
+    max-width: 300px;
 }
 
 p {
